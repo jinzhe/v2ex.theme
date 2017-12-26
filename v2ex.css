@@ -47,9 +47,23 @@ a.tab_current:active {
     border-radius: 20px;
     background-color: #1f1f20;
 }
-a.tab:link, a.tab:visited, a.tab:active {
+a.tab:link,
+a.tab:visited,
+a.tab:active {
     padding: 5px 10px;
     border-radius: 20px;
+}
+a.tab_current{
+    position: relative;
+}
+a.tab_current:after{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 45%;
+    border: 4px solid transparent;
+    border-top-color: #1f1f20;
+    border-right-width: 2px;
 }
 /*头像*/
 img.avatar {
