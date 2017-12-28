@@ -74,13 +74,19 @@ img.avatar {
     border-radius: 50%;
     box-shadow: 0 0 0 4px #fafafa;
 }
+img.avatar:hover {
+   box-shadow: 0 0 0 4px #efefef; 
+}
 
 /*列表*/
 .cell {
     border-bottom: 1px solid #efefef;
     padding: 10px 15px;
 }
-
+/*最后一行分页下面处理*/
+.box > .cell:last-child {
+    border-radius: 8px;
+}
 /*列表回复气泡*/
 a.count_livid:link,
 a.count_livid:active {
