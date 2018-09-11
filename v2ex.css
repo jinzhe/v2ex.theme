@@ -2,10 +2,13 @@
 a:link, a:visited, a:active {
     color: #333;
 }
+#Top{
+    border:none;
+    margin: 10px;
+}
 #Wrapper {
-    background-color: #e2e2e2;
-    background-image: url(/static/img/shadow_light.png), url(//cdn.v2ex.com/assets/bgs/circuit.png);
-    background-repeat: repeat-x, repeat-x;
+    background-color: #f6f8f9;
+    background-image: none;
 }
 /*广告*/
 .sidebar_compliance {
@@ -20,6 +23,7 @@ a:link, a:visited, a:active {
 }
 .box{
     border-radius:8px;
+    box-shadow: 0 0 6px 0 rgba(122,146,159,.1);
 }
 .box .inner{
     border-top-left-radius: 8px !important;
@@ -27,7 +31,7 @@ a:link, a:visited, a:active {
 }
 /*设置最大宽度适合mbp访问*/
 .content{
-    max-width:1260px;
+    max-width: 1260px !important;
 }
 .header {
     padding: 10px 20px;
